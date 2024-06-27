@@ -3,7 +3,17 @@
   padding: 0;
   overflow-x: hidden;
   border-color: rgba(255, 255, 255, 0);
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
+
+*::webkit-scrollbar {
+
+  display: none;
+}
+
 
 html {
   width: 100%;
@@ -287,11 +297,11 @@ footer{
   }
 
   span {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   #articleBtn {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     border-radius: 1000000000000px;
     height: 4rem;
     width: 5rem;
