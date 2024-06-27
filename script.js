@@ -1,1 +1,0 @@
-let width = screen.width;
